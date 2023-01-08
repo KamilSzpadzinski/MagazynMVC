@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazynMVC", "MagazynMVC.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazynMVC.Model", "..\MagazynMVC.Model\MagazynMVC.Model.csproj", "{4FE2BD10-0E44-42B0-9C25-9DE075C7DCD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazynMVC.Persistence", "..\MagazynMVC.Persistence\MagazynMVC.Persistence.csproj", "{BED01A6D-65AD-4072-8DA6-04D330CB4767}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4FE2BD10-0E44-42B0-9C25-9DE075C7DCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE2BD10-0E44-42B0-9C25-9DE075C7DCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE2BD10-0E44-42B0-9C25-9DE075C7DCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED01A6D-65AD-4072-8DA6-04D330CB4767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED01A6D-65AD-4072-8DA6-04D330CB4767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED01A6D-65AD-4072-8DA6-04D330CB4767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED01A6D-65AD-4072-8DA6-04D330CB4767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
