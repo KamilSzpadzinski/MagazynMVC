@@ -5,4 +5,15 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        <ul>
+            @foreach (var oil in ViewBag.Oils)
+            {
+                <li>@oil.Id</li>
+                <li>@oil.Address</li>
+                <li>@oil.Brand</li>
+                <li>@oil.Title</li>
+            }
+        </ul>
+    </div>
 </div>
