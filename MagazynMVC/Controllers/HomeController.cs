@@ -23,6 +23,7 @@ namespace MagazynMVC.Controllers
             ViewBag.Oils = oils;
             return View();
         }
+      
 
         public IActionResult Privacy()
         {
